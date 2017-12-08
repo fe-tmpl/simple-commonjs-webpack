@@ -1,0 +1,30 @@
+{
+  "name": "simple-commonjs-webpack",
+  "version": "1.0.0",
+  "description": "webpack hello world demo using commonjs sytnax",
+  "scripts": {
+    "start": "webpack && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mean-engineering/simple-commonjs-webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "demo",
+    "hello-world"
+  ],
+  "author": "Aquariuslt<superaquariuslt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mean-engineering/simple-commonjs-webpack/issues"
+  },
+  "homepage": "https://github.com/mean-engineering/simple-commonjs-webpack#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0"
+  }
+}
